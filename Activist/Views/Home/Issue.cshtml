@@ -1,0 +1,19 @@
+﻿@model Activist.Models.Contact
+
+@{
+    ViewBag.Title = "Issue";
+}
+
+<h2>Issue Form</h2>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true);
+   <p>First Name: @Html.EditorFor(m => m.FirstName)</p>
+    <p>Last Name: @Html.EditorFor(m => m.FirstName)</p>
+    <p>Email: @Html.EditorFor(m => m.FirstName)</p>
+    <p>Address 1: @Html.EditorFor(m => m.FirstName)</p>
+    <p>Address 2: @Html.EditorFor(m => m.FirstName)</p>
+    <p> PostalCode: @Html.EditorFor(m => m.FirstName)</p>
+    <p>Phone: @Html.EditorFor(m => m.FirstName)</p>
+    <input type="submit" value="Submit issues"></input>
+}
