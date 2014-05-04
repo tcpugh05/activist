@@ -123,9 +123,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Activist\Activist.csproj">
+    <ProjectReference Include="..\Activist\Activist.WebUI.csproj">
       <Project>{B21DCABF-8868-4342-BCED-1B01C421B66E}</Project>
-      <Name>Activist</Name>
+      <Name>Activist.WebUI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

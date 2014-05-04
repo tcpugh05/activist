@@ -1,4 +1,4 @@
-﻿@model Activist.Models.Contact
+﻿@model Activist.Domain.Concrete.Contact
 
 @{
     ViewBag.Title = "Issue";
@@ -15,5 +15,5 @@
     <p>Address 2: @Html.EditorFor(m => m.FirstName)</p>
     <p> PostalCode: @Html.EditorFor(m => m.FirstName)</p>
     <p>Phone: @Html.EditorFor(m => m.FirstName)</p>
-    <input type="submit" value="Submit issues"></input>
+    <input type="submit" value="Submit issues"/>
 }

@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Activist.Domain.Concrete.EFPIssueRepository
+@using Activist.Domain.Concrete;
+@{
     ViewBag.Title = "Home Page";
 }
 <h1>@ViewBag.Title.</h1>
@@ -6,3 +8,6 @@
 
 Hellow World!
 @Html.ActionLink("Issue here", "issue");
+@foreach(Issue issue in Model.Isses){
+    <p>issue.Title</p>
+}

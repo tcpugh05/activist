@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Activist.Domain.Concrete;
 
 namespace Activist.Controllers
 {
@@ -12,8 +13,8 @@ namespace Activist.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Issues to go here!";
-
-            return View();
+            EFPIssueRepository ef = new EFPIssueRepository();
+            return View(ef);
         }
 
         public ViewResult Issue()
