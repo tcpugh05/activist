@@ -1,4 +1,8 @@
-﻿using System;
+﻿/***********
+ * Part of Entity framework stuff
+ *********/
+/*
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +11,7 @@ using Activist.Domain.Abstract;
 
 namespace Activist.Domain.Concrete
 {
-    public class EFPIssueRepository : IIssueRepository{
+    public class EFPIssueRepository : IIssueRepositoryOld{
         private EFDbContext context  = new EFDbContext();
         public IQueryable<Issue> Isses
         {
@@ -15,3 +19,4 @@ namespace Activist.Domain.Concrete
         }
     }
 }
+*/

@@ -4,17 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Activist.Domain.Concrete;
 
 namespace Activist.Controllers
 {
     public class HomeController : Controller
     {
+        private IssueDBContext db = new IssueDBContext();
+
         public ActionResult Index()
         {
-            ViewBag.Message = "Issues to go here!";
-            EFPIssueRepository ef = new EFPIssueRepository();
-            return View(ef);
+            return View(db.Issues.ToList());
         }
 
         public ViewResult Issue()

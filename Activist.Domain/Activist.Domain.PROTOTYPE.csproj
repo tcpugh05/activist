@@ -54,8 +54,6 @@
     <Compile Include="Abstract\IIssueRepository.cs" />
     <Compile Include="Concrete\EFDbContext.cs" />
     <Compile Include="Concrete\EFPIssueRepository.cs" />
-    <Compile Include="Concrete\Issue.cs" />
-    <Compile Include="Concrete\Contact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

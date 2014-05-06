@@ -1,4 +1,7 @@
-﻿using Activist.Domain.Concrete;
+﻿/***********
+ * Part of Entity framework stuff
+ *********/
+/*using Activist.Models;
 using System.Data.Entity;
 
 namespace Activist.Domain.Concrete{
@@ -6,3 +9,4 @@ namespace Activist.Domain.Concrete{
         public DbSet<Issue> Issues { get; set; }
     }
 }
+*/
