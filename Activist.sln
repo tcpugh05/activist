@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activist.WebUI", "Activist\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activist.Tests", "Activist.Tests\Activist.Tests.csproj", "{8F71F7FD-69A0-4A8F-B562-0E3D0EACC375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activist.Domain", "Activist.Domain\Activist.Domain.csproj", "{DA814363-EF22-4FCA-B979-2746FBFB586D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activist.Domain.PROTOTYPE", "Activist.Domain\Activist.Domain.PROTOTYPE.csproj", "{DA814363-EF22-4FCA-B979-2746FBFB586D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

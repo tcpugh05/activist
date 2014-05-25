@@ -192,6 +192,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\Issue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -316,9 +318,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Activist.Domain\Activist.Domain.csproj">
+    <ProjectReference Include="..\Activist.Domain\Activist.Domain.PROTOTYPE.csproj">
       <Project>{da814363-ef22-4fca-b979-2746fbfb586d}</Project>
-      <Name>Activist.Domain</Name>
+      <Name>Activist.Domain.PROTOTYPE</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
